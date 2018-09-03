@@ -1,4 +1,4 @@
-ctOnElements = (selectors,action)=>{
+actOnElements = (selectors,action)=>{
     var collection = {
         count: 0
     };
