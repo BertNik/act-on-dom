@@ -1,0 +1,18 @@
+{
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "scripts/content.js"
+            ]
+        }
+    ],
+    "description": "Remove Script and Iframe tags",
+    "incognito": "spanning",
+    "manifest_version": 2,
+    "name": "Remove Tags",
+    
+    "version": "0.1"
+}
